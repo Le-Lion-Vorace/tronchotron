@@ -52,6 +52,12 @@ nav {
 .draggable:hover {
     border: 1px solid #aaa;
 }
+.draggable.infoDlg{
+    cursor: move;
+}
+.draggable.infoDlg:hover{
+    border-color: #666;
+}
 .ui-icon, .ui-widget-content .ui-icon {
     background-image: none;
 }
@@ -234,7 +240,8 @@ nav {
     width: 500px;
     /*text-align: justify;*/
     white-space:normal;
-    z-index: 100;
+    opacity:0.9;
+    z-index: 1000;
 }
 .infoDlg h3 a {
     text-decoration: none;
@@ -264,7 +271,8 @@ nav {
 }
 #about {
     display: none;
-    left: 350px;
+    right:0;
+    top:0;
 }
 #moveLbl {
     color: #777;
