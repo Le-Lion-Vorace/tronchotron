@@ -1,0 +1,12 @@
+<div id="elementPanel">
+    <div id="{{cat.name}}" class="elementsDiv" ng-repeat="cat in categories" ng-init="cat">
+        <div ng-repeat="element in elements" ng-if="element.category==cat.name && element.status" class="draggable ui-widget-content">
+            <span class="close" title="fermer" ng-click="unsetActive($index)">X</span>
+            <img ng-src="{{element.src}}" alt="{{element.name}}" width="100%" height="100%">
+            <span  class="h_rotation hidden">0</span>
+            <span class="h_posX hidden">0</span>
+            <span class="h_posY hidden">0</span>
+            <span class="h_name hidden">{{element.name}}</span>
+        </div>
+    </div>
+</div> 

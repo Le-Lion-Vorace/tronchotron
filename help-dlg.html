@@ -1,0 +1,20 @@
+<div draggable id="aide" class="infoDlg" ng-controller="navCtrl">
+    <h2>{{appName}}</h2>
+    <h3>proposé par <a href="index.html">{{siteName}}</a></h3>
+    <h3>Aide</h3>
+    <p>Clique sur l'un des boutons de la barre d'éléments pour afficher ou cacher cet élément.</p>
+    <p>Déplace les éléments par cliquer-glisser.</p>
+    <p>Sélectionne l'élément choisi en cliquant dessus, un cadre &laquo; rouge-pointillé &raquo; 
+        apparait autour de celui-ci, tu peux alors utiliser les boutons de la barre d'outils 
+        et les flèches de redimensionnement pour le modifier.</p>
+    <p>Utilise le bouton &laquo; fermer &raquo; d'un élément pour cacher celui-ci.</p>
+    <p>Utilise les boutons haut et bas pour changer le z-index de l'élément sélectionné
+        <em>(le "z-index" correspond à la hauteur du calque par rapport au &laquo; fond d'écran &raquo;)</em>.</p>
+    <p>Utilise les boutons de rotation pour rotationner l'élément sélectionné.</p>
+    <!--p>Utilise le bouton &laquo; afficher les éléments cachés &raquo; 
+        pour afficher les élements que tu as cachés.</p-->
+    <p>Utilise le bouton de déselection pour déselectionner tous les éléments.</p>
+    <p>Utilise les flèches de redimensionnement pour redimensionner.</p>
+    <p class="hidden">Utilise ton cerveau aussi, de temps en temps, ça peux aider...</p>
+    <p class="center"><span class="hider" ng-click="dlgHide('aide')">fermer</span></p>
+</div>

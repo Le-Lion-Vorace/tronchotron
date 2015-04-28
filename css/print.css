@@ -1,0 +1,13 @@
+body{
+    margin:auto !important;
+    /*width:auto !important;*/
+}
+#wrapper {
+    /*left: -10cm;*/
+}
+nav {
+    display: none;
+}
+.selected, .selected:hover {
+    border: none;
+}

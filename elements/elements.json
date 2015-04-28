@@ -1,0 +1,489 @@
+ [
+ 	{
+        "name" : "visage01",
+        "fileName" : "visage01.png",
+        "src" : "elements/visages/visage01.png",
+        "category" : "visages",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 300
+    }, {
+        "name" : "yeux01",
+        "fileName" : "yeux01.png",
+        "src" : "elements/yeux/yeux01.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux02",
+        "fileName" : "yeux02.png",
+        "src" : "elements/yeux/yeux02.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux03",
+        "fileName" : "yeux03.png",
+        "src" : "elements/yeux/yeux03.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux04",
+        "fileName" : "yeux04.png",
+        "src" : "elements/yeux/yeux04.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux05",
+        "fileName" : "yeux05.png",
+        "src" : "elements/yeux/yeux05.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux06",
+        "fileName" : "yeux06.png",
+        "src" : "elements/yeux/yeux06.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux07",
+        "fileName" : "yeux07.png",
+        "src" : "elements/yeux/yeux07.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux08-dte",
+        "fileName" : "yeux08.png-dte",
+        "src" : "elements/yeux/yeux08-dte.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "yeux08-gche",
+        "fileName" : "yeux08-gche.png",
+        "src" : "elements/yeux/yeux08-gche.png",
+        "category" : "yeux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "nez01",
+        "fileName" : "nez01.png",
+        "src" : "elements/nez/nez01.png",
+        "category" : "nez",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 200
+    }, {
+        "name" : "nez02",
+        "fileName" : "nez02.png",
+        "src" : "elements/nez/nez02.png",
+        "category" : "nez",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 70
+    }, {
+        "name" : "nez03",
+        "fileName" : "nez03.png",
+        "src" : "elements/nez/nez03.png",
+        "category" : "nez",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "nez04",
+        "fileName" : "nez04.png",
+        "src" : "elements/nez/nez04.png",
+        "category" : "nez",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 200
+    }, {
+        "name" : "bouche01",
+        "fileName" : "bouche01.png",
+        "src" : "elements/bouches/bouche01.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 170
+    }, {
+        "name" : "bouche02",
+        "fileName" : "bouche02.png",
+        "src" : "elements/bouches/bouche02.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche03",
+        "fileName" : "bouche03.png",
+        "src" : "elements/bouches/bouche03.png",
+        "category" : "bouches",
+        "flipx" : false,
+        "flipy" : false,
+        "status" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche04",
+        "fileName" : "bouche04.png",
+        "src" : "elements/bouches/bouche04.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche05",
+        "fileName" : "bouche05.png",
+        "src" : "elements/bouches/bouche05.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche06",
+        "fileName" : "bouche06.png",
+        "src" : "elements/bouches/bouche06.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche07",
+        "fileName" : "bouche07.png",
+        "src" : "elements/bouches/bouche07.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche08",
+        "fileName" : "bouche08.png",
+        "src" : "elements/bouches/bouche08.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "bouche09",
+        "fileName" : "bouche09.png",
+        "src" : "elements/bouches/bouche09.png",
+        "category" : "bouches",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille01-dte",
+        "fileName" : "oreille01-dte.png",
+        "src" : "elements/oreilles/oreille01-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille01-gche",
+        "fileName" : "oreille01-gche.png",
+        "src" : "elements/oreilles/oreille01-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille02-dte",
+        "fileName" : "oreille02-dte.png",
+        "src" : "elements/oreilles/oreille02-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille02-gche",
+        "fileName" : "oreille02-gche.png",
+        "src" : "elements/oreilles/oreille02-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille03-dte",
+        "fileName" : "oreille03-dte.png",
+        "src" : "elements/oreilles/oreille03-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille03-gche",
+        "fileName" : "oreille03-gche.png",
+        "src" : "elements/oreilles/oreille03-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille04-dte",
+        "fileName" : "oreille04-dte.png",
+        "src" : "elements/oreilles/oreille04-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille04-gche",
+        "fileName" : "oreille04-gche.png",
+        "src" : "elements/oreilles/oreille04-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille05-dte",
+        "fileName" : "oreille05-dte.png",
+        "src" : "elements/oreilles/oreille05-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille05-gche",
+        "fileName" : "oreille05-gche.png",
+        "src" : "elements/oreilles/oreille05-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille06-dte",
+        "fileName" : "oreille06-dte.png",
+        "src" : "elements/oreilles/oreille06-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille06-gche",
+        "fileName" : "oreille06-gche.png",
+        "src" : "elements/oreilles/oreille06-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille07-dte",
+        "fileName" : "oreille07-dte.png",
+        "src" : "elements/oreilles/oreille07-dte.png",
+        "category" : "oreilles-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "oreille07-gche",
+        "fileName" : "oreille07-gche.png",
+        "src" : "elements/oreilles/oreille07-gche.png",
+        "category" : "oreilles-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 150
+    }, {
+        "name" : "chevelure01",
+        "fileName" : "chevelure01.png",
+        "src" : "elements/cheveux/chevelure01.png",
+        "category" : "cheveux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 250
+    }, {
+        "name" : "cheveux02",
+        "fileName" : "cheveux02.png",
+        "src" : "elements/cheveux/cheveux02.png",
+        "category" : "cheveux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "cheveux03",
+        "fileName" : "cheveux03.png",
+        "src" : "elements/cheveux/cheveux03.png",
+        "category" : "cheveux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 125
+    }, {
+        "name" : "cheveux04",
+        "fileName" : "cheveux04.png",
+        "src" : "elements/cheveux/cheveux04.png",
+        "category" : "cheveux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 250
+    }, {
+        "name" : "cheveux05",
+        "fileName" : "cheveux05.png",
+        "src" : "elements/cheveux/cheveux05.png",
+        "category" : "cheveux",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 300
+    }, {
+        "name" : "triple-menton",
+        "fileName" : "triple-menton.png",
+        "src" : "elements/divers/triple-menton.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "moustache01-dte",
+        "fileName" : "moustache01-dte",
+        "src" : "elements/divers/moustache01-dte.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "moustache01-gche",
+        "fileName" : "moustache01-gche",
+        "src" : "elements/divers/moustache01-gche.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "sourcil01-dte",
+        "fileName" : "sourcil01-dte",
+        "src" : "elements/divers/sourcil01-dte.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "sourcil01-gche",
+        "fileName" : "sourcil01-gche",
+        "src" : "elements/divers/sourcil01-gche.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "chapeau01",
+        "fileName" : "triple-menton.png",
+        "src" : "elements/divers/chapeau01.png",
+        "category" : "divers",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 200
+    }, {
+        "name" : "menton01",
+        "fileName" : "menton01.png",
+        "src" : "elements/mentons/menton01.png",
+        "category" : "mentons",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "menton02",
+        "fileName" : "menton02.png",
+        "src" : "elements/mentons/menton02.png",
+        "category" : "mentons",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "joues01-dte",
+        "fileName" : "joues01-dte.png",
+        "src" : "elements/joues/joues01-dte.png",
+        "category" : "joues-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "joues01-gche",
+        "fileName" : "joues01-gche.png",
+        "src" : "elements/joues/joues01-gche.png",
+        "category" : "joues-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "joues02-dte",
+        "fileName" : "joues02-dte.png",
+        "src" : "elements/joues/joues02-dte.png",
+        "category" : "joues-dte",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }, {
+        "name" : "joues02-gche",
+        "fileName" : "joues02-gche.png",
+        "src" : "elements/joues/joues02-gche.png",
+        "category" : "joues-gche",
+        "status" : false,
+        "flipx" : false,
+        "flipy" : false,
+        "width" : 100
+    }
+]

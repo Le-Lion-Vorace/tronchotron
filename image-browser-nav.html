@@ -1,0 +1,6 @@
+<nav id="imgbrowser" ng-mouseleave='enable()'>
+    <h2 class="toolBarName">éléments</h2>
+    <div id="btn_{{$index}}" class="nav-btn brwsr-btn" ng-repeat="element in elements" ng-click="setActive($index)" ng-class="classActive($index)">
+        <img ng-src="{{element.src}}" alt="{{element.name}}" width="30px" height="30px">
+    </div>
+</nav>
