@@ -1,0 +1,16 @@
+<input type="checkbox" ng-model="checked" ng-init="checked=false" />
+<span id='moveLbl'>boutons de déplacement</span>
+<div ng-if="checked">
+    <button class="nav-btn" id="btn-up" title="en haut" ng-click="elementMove('up')">
+        up
+    </button>
+    <button class="nav-btn" id="btn-down" title="en bas" ng-click="elementMove('down')">
+        down
+    </button>
+    <button class="nav-btn" id="btn-left" title="à gauche" ng-click="elementMove('left')">
+        left
+    </button>
+    <button class="nav-btn" id="btn-right" title="à droite" ng-click="elementMove('right')">
+        right
+    </button>
+</div>
