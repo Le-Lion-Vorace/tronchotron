@@ -78,11 +78,11 @@ nav {
 }
 #imgbrowser .brwsr-btn {
     display: inline-block;
-    height: 30px;
-    margin: 6px;
+    height: 42px;
+    margin: 11px;
     padding: 5px;
     text-align: left;
-    width: 30px;
+    width: 42px;
 }
 .active {
     position: relative;
@@ -275,7 +275,7 @@ nav {
     top: 4px;
     width: 60px;
 }
-.label {
+.lbl {
     font-family: Tahoma;
     font-size: 10px;
     margin: 0 auto;

@@ -1,30 +1,11 @@
 <nav id="toolbar" ng-controller="navCtrl">
-    
     <h2 class="toolBarName">modifications</h2>
-    
-    <!--button ng-repeat="button in navBtn" class="nav-btn" id="btn-{{button.id}}" title="{{button.title}}" ng-click="btnClick" ng-init="btnClick={{button.ngClick}}"></button-->
-    <!--button class="nav-btn" id="btn-enable" title="activer cette application" ng-click="enable()"></button-->
-    <!--input type="checkbox" ng-model="checked" ng-init="checked=false" /><span id='moveLbl'>boutons de déplacement</span>
-    <div ng-if="checked">
-    <button class="nav-btn" id="btn-up" title="en haut" ng-click="elementMove('up')">up</button>
-    <button class="nav-btn" id="btn-down" title="en bas" ng-click="elementMove('down')">down</button>
-    <button class="nav-btn" id="btn-left" title="à gauche" ng-click="elementMove('left')">left</button>
-    <button class="nav-btn" id="btn-right" title="à droite" ng-click="elementMove('right')">right</button>
-    </div-->
-    <move-btns></move-btns>
-    <button class="nav-btn" id="btn-z-up" title="vers l'avant-plan" ng-click="zUp()"></button>
-    <button class="nav-btn" id="btn-z-down" title="vers l'arrière-plan" ng-click="zDown()"></button>
-    <button class="nav-btn" id="btn-rotate-lt" title='rotation anti-horaire' ng-click="rotateLt()"></button>
-    <button class="nav-btn" id="btn-rotate-rt" title='rotation horaire' ng-click="rotateRt()"></button>
-    <button class="nav-btn" id="btn-flip-X" title="miroir vertical" ng-click="flipX()"></button>
-    <button class="nav-btn" id="btn-flip-Y" title="miroir horizontal" ng-click="flipY()"></button>
-    <button class="nav-btn" id="btn-deselect" title='déselectionner tout' ng-click="deselectAll()"></button>
-    <!--button class="nav-btn" id="btn-select" title='selectionner tout' ng-click="selectAll()"></button-->
-    <button class="nav-btn" id="btn-help" title="afficher l'aide" ng-click="dlgShow('aide')"></button>
-    <button class="nav-btn" id="btn-about" title="à propos du tronche-o-tron" ng-click="dlgShow('about')"></button>
-    
-    <div class="label">
-        <h2 class="toolBarName">élément sélectionné :</h2>
+    <button ng-repeat="btn in navBtn" class="nav-btn" 
+            id="btn-{{btn.id}}" title="{{btn.title}}"
+            ng-click="btn.fn()"></button>
+    <move-btns></move-btns>    
+    <div class="lbl">
+        <h2 class="toolBarName">Sélectionné :</h2>
         <div class="infolbl">
             nom : <span id="name"></span> 
             <br />
