@@ -16,14 +16,14 @@ nav {
 #toolbar {
     box-shadow: 6px -12px 20px #aaa;
     float: left;
-    background: #888;
-    background: -moz-linear-gradient(left,  #ccc 0%, #ccc 94%, #888 100%);
+    background: #ccc;
+    /*background: -moz-linear-gradient(left,  #ccc 0%, #ccc 94%, #888 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ccc), color-stop(94%,#ccc), color-stop(100%,#888));
     background: -webkit-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
     background: -o-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
     background: -ms-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
     background: linear-gradient(to right,  #ccc 0%,#ccc 94%,#888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#888',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#888',GradientType=1 );*/
 }
 
 #imgbrowser {
@@ -32,14 +32,14 @@ nav {
     float: right;
     text-align: left;
     width: 280px;
-    background: #888;
-    background: -moz-linear-gradient(left,  #888 0%, #ccc 6%, #ccc 100%);
+    background: #ccc;
+    /*background: -moz-linear-gradient(left,  #888 0%, #ccc 6%, #ccc 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#888), color-stop(6%,#ccc), color-stop(100%,#ccc));
     background: -webkit-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
     background: -o-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
     background: -ms-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
     background: linear-gradient(to right,  #888 0%,#ccc 6%,#ccc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888', endColorstr='#ccc',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888', endColorstr='#ccc',GradientType=1 );*/
 }
 
 .draggable {
@@ -278,7 +278,7 @@ nav {
 .label {
     font-family: Tahoma;
     font-size: 10px;
-    margin-top: 0;
+    margin: 0 auto;
     padding: 15px;
     color: #777;
 }
@@ -310,7 +310,7 @@ nav {
     color: #777;
     font-size: 12px;
     font-weight: normal;
-    margin: 4px 12px;
+    /*margin: 4px 12px;*/
     text-align: center;
     text-shadow: 0 1px 0 #fff;
 }
