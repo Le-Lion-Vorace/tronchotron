@@ -1,2 +1,2 @@
-#	Le tronchotron
-# 	A drag and drop app using angular js
+#Le tronchotron
+A drag and drop app using angular js
