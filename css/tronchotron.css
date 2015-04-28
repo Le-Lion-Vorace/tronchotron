@@ -232,7 +232,8 @@ nav {
     position: absolute;
     top: 20px;
     width: 500px;
-    text-align: justify;
+    /*text-align: justify;*/
+    white-space:normal;
     z-index: 100;
 }
 .infoDlg h3 a {
@@ -258,7 +259,7 @@ nav {
     text-decoration: none;
     color: #500;
 }
-#aide {
+#help {
     right: 350px;
 }
 #about {

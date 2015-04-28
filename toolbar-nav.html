@@ -1,9 +1,9 @@
 <nav id="toolbar" ng-controller="navCtrl">
     <h2 class="toolBarName">modifications</h2>
+    <move-btns></move-btns>    
     <button ng-repeat="btn in navBtn" class="nav-btn" 
             id="btn-{{btn.id}}" title="{{btn.title}}"
             ng-click="btn.fn()"></button>
-    <move-btns></move-btns>    
     <div class="lbl">
         <h2 class="toolBarName">Sélectionné :</h2>
         <div class="infolbl">
