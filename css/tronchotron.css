@@ -1,3 +1,9 @@
+* {
+    outline-style: none;
+}
+body {
+    margin: 0;
+}
 #wrapper {
 }
 #elementPanel {
@@ -18,12 +24,12 @@ nav {
     float: left;
     background: #ccc;
     /*background: -moz-linear-gradient(left,  #ccc 0%, #ccc 94%, #888 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ccc), color-stop(94%,#ccc), color-stop(100%,#888));
-    background: -webkit-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-    background: -o-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-    background: -ms-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-    background: linear-gradient(to right,  #ccc 0%,#ccc 94%,#888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#888',GradientType=1 );*/
+     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ccc), color-stop(94%,#ccc), color-stop(100%,#888));
+     background: -webkit-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
+     background: -o-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
+     background: -ms-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
+     background: linear-gradient(to right,  #ccc 0%,#ccc 94%,#888 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#888',GradientType=1 );*/
 }
 
 #imgbrowser {
@@ -34,14 +40,16 @@ nav {
     width: 280px;
     background: #ccc;
     /*background: -moz-linear-gradient(left,  #888 0%, #ccc 6%, #ccc 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#888), color-stop(6%,#ccc), color-stop(100%,#ccc));
-    background: -webkit-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-    background: -o-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-    background: -ms-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-    background: linear-gradient(to right,  #888 0%,#ccc 6%,#ccc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888', endColorstr='#ccc',GradientType=1 );*/
+     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#888), color-stop(6%,#ccc), color-stop(100%,#ccc));
+     background: -webkit-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
+     background: -o-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
+     background: -ms-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
+     background: linear-gradient(to right,  #888 0%,#ccc 6%,#ccc 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888', endColorstr='#ccc',GradientType=1 );*/
 }
-
+.hidden {
+    display: none;
+}
 .draggable {
     display: inline-block;
     padding: 0;
@@ -52,10 +60,10 @@ nav {
 .draggable:hover {
     border: 1px solid #aaa;
 }
-.draggable.infoDlg{
+.draggable.infoDlg {
     cursor: move;
 }
-.draggable.infoDlg:hover{
+.draggable.infoDlg:hover {
     border-color: #666;
 }
 .ui-icon, .ui-widget-content .ui-icon {
@@ -84,11 +92,11 @@ nav {
 }
 #imgbrowser .brwsr-btn {
     display: inline-block;
-    height: 42px;
-    margin: 11px;
+    height: 30px;
+    margin: 5px;
     padding: 5px;
     text-align: left;
-    width: 42px;
+    width: 30px;
 }
 .active {
     position: relative;
@@ -238,9 +246,9 @@ nav {
     position: absolute;
     top: 20px;
     width: 500px;
-    /*text-align: justify;*/
-    white-space:normal;
-    opacity:0.9;
+    text-align: justify;
+    white-space: normal;
+    opacity: 0.9;
     z-index: 1000;
 }
 .infoDlg h3 a {
@@ -257,22 +265,30 @@ nav {
 .infoDlg strong {
     color: red;
 }
-.infoDlg span {
+.infoDlg a.hider {
     color: #900;
     cursor: pointer;
     text-decoration: underline;
 }
-.infoDlg span:hover {
+.infoDlg a.hider:hover {
     text-decoration: none;
     color: #500;
+}*/
+.infoDlg span.close {
+    /*text-decoration: none;*/
+    color: #666;
+}
+.infoDlg span.close:hover {
+    /*text-decoration: none;*/
+    color: #555;
 }
 #help {
     right: 350px;
 }
 #about {
     display: none;
-    right:0;
-    top:0;
+    right: 0;
+    top: 0;
 }
 #moveLbl {
     color: #777;
@@ -299,13 +315,15 @@ nav {
     text-align: left;
 }
 .close {
-    position: absolute;
-    display: none;
-    padding: 6px;
-    right: 4px;
-    top: -4px;
     color: #999;
     cursor: pointer;
+    font-family: arial;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 6px;
+    position: absolute;
+    right: 4px;
+    top: -4px;
 }
 .close:hover {
     display: block;
@@ -319,7 +337,7 @@ nav {
     color: #777;
     font-size: 12px;
     font-weight: normal;
-    /*margin: 4px 12px;*/
+    font-family: Tahoma;
     text-align: center;
     text-shadow: 0 1px 0 #fff;
 }
@@ -336,16 +354,16 @@ nav {
     transform: scaleY(-1);
     filter: 'FlipV';
 }
-.licence {
+.pre {
     font-size: 16px;
     font-family: "Courier New";
 }
-.licence a {
+.pre a {
     color: #900;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
-.licence a:hover {
+.pre a:hover {
     color: #500;
     text-decoration: underline;
 }

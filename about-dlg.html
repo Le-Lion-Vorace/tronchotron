@@ -1,4 +1,5 @@
 <div draggable id="about" class="infoDlg draggable" ng-controller="navCtrl">
+    <span class="close" title="fermer" ng-click="dlgHide('about')">X</span>
     <h2>{{appName}}</h2>
     <h3>A propos du tronche-o-tron</h3>
     <h3>proposé par <a href="index.html">{{siteName}}</a></h3>
@@ -6,15 +7,19 @@
     <p>D'après une idée tout en papier et ciseaux de Gecko, 
         réalisé tout en code, scan et toshop par Le lion vorace, 
         dessins des éléments par Gecko et Le Lion Vorace.</p>
-    <p>icônes utilisées : <pre>DefaultIcon ver 2.0 de interactivemania<br/>icônes miroirs par LLV</pre>
+    <p>icônes utilisées : <br/>
+        <span class="pre">DefaultIcon ver 2.0 de interactivemania</span><br/>
+        <span class="pre">icônes miroirs par LLV</span>
     </p>
     <p>Appli en cours de développement...<br/>
         suggestions, bug report : <br/>
-        <pre>contact [at] action-grasse [dot] org<br/>envie de collaborer au projet ? :<br/><a href="https://github.com/Le-Lion-Vorace/tronchotron">Le-Lion-Vorace/tronchotron@github.com</a></pre>
-        
+        <span class="pre">contact [at] action-grasse [dot] org<br/></span>
+     </p>
+     <p>envie de collaborer au projet ? :<br/>
+         <span class="pre"><a href="https://github.com/Le-Lion-Vorace/tronchotron">Le-Lion-Vorace/tronchotron@github.com</a></span>
     </p>
     <p>Licences :</p>
-    <div class="licence">
+    <div class="pre">
         <p>les &oelig;uvres présentes sur ce site sont mises à disposition selon les termes de la <br/>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/">
                 Licence Creative Commons Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 3.0 France
@@ -26,6 +31,6 @@
             </a>
         </p>
     </div>
-    <p class="center"><span class="hider" ng-click="dlgHide('about')">fermer</span></p>
+    <p class="center"><a href class="hider" ng-click="dlgHide('about')">fermer</a></p>
     
 </div>
