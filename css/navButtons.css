@@ -1,0 +1,63 @@
+#btn-enable {
+    background: url(images/btn-activate.png) no-repeat center center;
+}
+#btn-enable:active {
+    background: url(images/btn-activate-green.png) no-repeat center center;
+}
+#btn-enable.active {
+    background: url(images/btn-activate-green.png) no-repeat center center #0f9;
+}
+#btn-rotate-lt {
+    background: url(images/btn-rotate-lt.png) no-repeat center center;
+}
+#btn-rotate-lt:active {
+    background: url(images/btn-rotate-lt-green.png) no-repeat center center;
+}
+#btn-rotate-rt {
+    background: url(images/btn-rotate-rt.png) no-repeat center center;
+}
+#btn-rotate-rt:active {
+    background: url(images/btn-rotate-rt-green.png) no-repeat center center;
+}
+#btn-z-up {
+    background: url(images/btn-up.png) no-repeat center center;
+}
+#btn-z-up:active {
+    background: url(images/btn-up-green.png) no-repeat center center;
+}
+#btn-z-down {
+    background: url(images/btn-down.png) no-repeat center center;
+}
+#btn-z-down:active {
+    background: url(images/btn-down-green.png) no-repeat center center;
+}
+#btn-deselect {
+    background: url(images/btn-deselect.png) no-repeat center center;
+}
+#btn-deselect:active {
+    background: url(images/btn-deselect-green.png) no-repeat center center;
+}
+#btn-help {
+    background: url(images/btn-help.png) no-repeat center center;
+}
+#btn-help:active {
+    background: url(images/btn-help-green.png) no-repeat center center;
+}
+#btn-about {
+    background: url(images/btn-about.png) no-repeat center center;
+}
+#btn-about:active {
+    background: url(images/btn-about-green.png) no-repeat center center;
+}
+#btn-flip-X {
+    background: url(images/btn-flipH.png) no-repeat center center;
+}
+#btn-flip-X:active {
+    background: url(images/btn-flipH-green.png) no-repeat center center;
+}
+#btn-flip-Y {
+    background: url(images/btn-flipV.png) no-repeat center center;
+}
+#btn-flipY:active {
+    background: url(images/btn-flipV-green.png) no-repeat center center;
+}

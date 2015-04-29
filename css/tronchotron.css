@@ -4,12 +4,6 @@
 body {
     margin: 0;
 }
-#wrapper {
-}
-#elementPanel {
-    float: left;
-    z-index: 1;
-}
 nav {
     min-height: 1000px;
     width: 130px;
@@ -23,15 +17,7 @@ nav {
     box-shadow: 6px -12px 20px #aaa;
     float: left;
     background: #ccc;
-    /*background: -moz-linear-gradient(left,  #ccc 0%, #ccc 94%, #888 100%);
-     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ccc), color-stop(94%,#ccc), color-stop(100%,#888));
-     background: -webkit-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-     background: -o-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-     background: -ms-linear-gradient(left,  #ccc 0%,#ccc 94%,#888 100%);
-     background: linear-gradient(to right,  #ccc 0%,#ccc 94%,#888 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccc', endColorstr='#888',GradientType=1 );*/
 }
-
 #imgbrowser {
     box-shadow: -6px -12px 20px #aaa;
     padding-left: 14px;
@@ -39,13 +25,6 @@ nav {
     text-align: left;
     width: 280px;
     background: #ccc;
-    /*background: -moz-linear-gradient(left,  #888 0%, #ccc 6%, #ccc 100%);
-     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#888), color-stop(6%,#ccc), color-stop(100%,#ccc));
-     background: -webkit-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-     background: -o-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-     background: -ms-linear-gradient(left,  #888 0%,#ccc 6%,#ccc 100%);
-     background: linear-gradient(to right,  #888 0%,#ccc 6%,#ccc 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#888', endColorstr='#ccc',GradientType=1 );*/
 }
 .hidden {
     display: none;
@@ -112,208 +91,6 @@ nav {
     border-bottom-color: #fff;
     border-right-color: #fff;
 }
-#btn-enable {
-    background: url(images/btn-activate.png) no-repeat center center;
-}
-#btn-enable:active {
-    background: url(images/btn-activate-green.png) no-repeat center center;
-}
-#btn-enable.active {
-    background: url(images/btn-activate-green.png) no-repeat center center #0f9;
-}
-#btn-rotate-lt {
-    background: url(images/btn-rotate-lt.png) no-repeat center center;
-}
-#btn-rotate-lt:active {
-    background: url(images/btn-rotate-lt-green.png) no-repeat center center;
-}
-#btn-rotate-rt {
-    background: url(images/btn-rotate-rt.png) no-repeat center center;
-}
-#btn-rotate-rt:active {
-    background: url(images/btn-rotate-rt-green.png) no-repeat center center;
-}
-#btn-z-up {
-    background: url(images/btn-up.png) no-repeat center center;
-}
-#btn-z-up:active {
-    background: url(images/btn-up-green.png) no-repeat center center;
-}
-#btn-z-down {
-    background: url(images/btn-down.png) no-repeat center center;
-}
-#btn-z-down:active {
-    background: url(images/btn-down-green.png) no-repeat center center;
-}
-#btn-deselect {
-    background: url(images/btn-deselect.png) no-repeat center center;
-}
-#btn-deselect:active {
-    background: url(images/btn-deselect-green.png) no-repeat center center;
-}
-#btn-help {
-    background: url(images/btn-help.png) no-repeat center center;
-}
-#btn-help:active {
-    background: url(images/btn-help-green.png) no-repeat center center;
-}
-#btn-about {
-    background: url(images/btn-about.png) no-repeat center center;
-}
-#btn-about:active {
-    background: url(images/btn-about-green.png) no-repeat center center;
-}
-#btn-flip-X {
-    background: url(images/btn-flipH.png) no-repeat center center;
-}
-#btn-flip-X:active {
-    background: url(images/btn-flipH-green.png) no-repeat center center;
-}
-#btn-flip-Y {
-    background: url(images/btn-flipV.png) no-repeat center center;
-}
-#btn-flipY:active {
-    background: url(images/btn-flipV-green.png) no-repeat center center;
-}
-.elementsDiv {
-    position: absolute;
-    /*border: 1px dashed #ccc;*/
-}
-#visages {
-    z-index: 2;
-    top: 150px;
-    left: 230px;
-}
-#yeux {
-    top: 230px;
-    left: 280px;
-    z-index: 3;
-}
-#nez {
-    top: 300px;
-    left: 290px;
-    z-index: 4;
-}
-#bouches {
-    z-index: 5;
-    top: 430px;
-    left: 290px;
-}
-#oreilles-dte {
-    top: 300px;
-    left: 145px;
-    z-index: 6;
-}
-#oreilles-gche {
-    top: 200px;
-    left: 470px;
-    z-index: 6;
-}
-#joues-dte {
-    top: 330px;
-    left: 230px;
-    z-index: 7;
-}
-#joues-gche {
-    top: 330px;
-    left: 450px;
-    z-index: 7;
-}
-#mentons {
-    top: 400px;
-    left: 700px;
-    z-index: 9;
-}
-#cheveux {
-    top: 10px;
-    left: 700px;
-    z-index: 9;
-}
-#divers {
-    top: 550px;
-    left: 700px;
-    z-index: 9;
-}
-.infoDlg {
-    background-color: #fffec4;
-    border: 1px solid white;
-    border-radius: 8px;
-    box-shadow: 6px 6px 6px #666;
-    color: #500;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding: 30px;
-    position: absolute;
-    top: 20px;
-    width: 500px;
-    text-align: justify;
-    white-space: normal;
-    opacity: 0.9;
-    z-index: 1000;
-}
-.infoDlg h3 a {
-    text-decoration: none;
-    color: #c00;
-}
-.infoDlg h3 a:hover {
-    text-decoration: underline;
-    color: #500;
-}
-.infoDlg em {
-    color: #900;
-}
-.infoDlg strong {
-    color: red;
-}
-.infoDlg a.hider {
-    color: #900;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.infoDlg a.hider:hover {
-    text-decoration: none;
-    color: #500;
-}*/
-.infoDlg span.close {
-    /*text-decoration: none;*/
-    color: #666;
-}
-.infoDlg span.close:hover {
-    /*text-decoration: none;*/
-    color: #555;
-}
-#help {
-    right: 350px;
-}
-#about {
-    display: none;
-    right: 0;
-    top: 0;
-}
-#moveLbl {
-    color: #777;
-    display: inline-block;
-    font-family: Tahoma;
-    font-size: 10px;
-    margin-top: 0;
-    position: relative;
-    top: 4px;
-    width: 60px;
-}
-.lbl {
-    font-family: Tahoma;
-    font-size: 10px;
-    margin: 0 auto;
-    padding: 15px;
-    color: #777;
-}
-.infolbl {
-    border: 1px solid #666;
-    border-bottom-color: #ddd;
-    border-right-color: #ddd;
-    padding: 5px;
-    text-align: left;
-}
 .close {
     color: #999;
     cursor: pointer;
@@ -354,16 +131,4 @@ nav {
     transform: scaleY(-1);
     filter: 'FlipV';
 }
-.pre {
-    font-size: 16px;
-    font-family: "Courier New";
-}
-.pre a {
-    color: #900;
-    text-decoration: none;
-    font-size: 16px;
-}
-.pre a:hover {
-    color: #500;
-    text-decoration: underline;
-}
+

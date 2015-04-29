@@ -1,0 +1,93 @@
+.infoDlg {
+    background-color: #fffec4;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px #666;
+    color: #500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 30px;
+    position: absolute;
+    top: 20px;
+    width: 500px;
+    text-align: justify;
+    white-space: normal;
+    opacity: 0.85;
+    z-index: 1000;
+}
+.infoDlg h3 a {
+    text-decoration: none;
+    color: #c00;
+}
+.infoDlg h3 a:hover {
+    text-decoration: underline;
+    color: #500;
+}
+.infoDlg em {
+    color: #900;
+}
+.infoDlg strong {
+    color: red;
+}
+.infoDlg a.hider {
+    color: #900;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.infoDlg a.hider:hover {
+    text-decoration: none;
+    color: #500;
+}
+.infoDlg span.close {
+    /*text-decoration: none;*/
+    color: #666;
+}
+.infoDlg span.close:hover {
+    /*text-decoration: none;*/
+    color: #555;
+}
+.pre {
+    font-size: 16px;
+    font-family: "Courier New";
+}
+.pre a {
+    color: #900;
+    text-decoration: none;
+    font-size: 16px;
+}
+.pre a:hover {
+    color: #500;
+    text-decoration: underline;
+}
+#help {
+    right: 350px;
+}
+#about {
+    display: none;
+    left: 250px;
+    top: 0;
+}
+#moveLbl {
+    color: #777;
+    display: inline-block;
+    font-family: Tahoma;
+    font-size: 10px;
+    margin-top: 0;
+    position: relative;
+    top: 4px;
+    width: 60px;
+}
+.lbl {
+    font-family: Tahoma;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 15px;
+    color: #777;
+}
+.infolbl {
+    border: 1px solid #666;
+    border-bottom-color: #ddd;
+    border-right-color: #ddd;
+    padding: 5px;
+    text-align: left;
+}
