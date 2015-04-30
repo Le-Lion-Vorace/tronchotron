@@ -12,14 +12,13 @@ nav {
     z-index: 999;
     text-align: center;
     position: relative;
+    box-shadow: 0 -5px 5px rgba(0,0,0,1);
 }
 #toolbar {
-    box-shadow: 6px -12px 20px #aaa;
     float: left;
     background: #ccc;
 }
 #imgbrowser {
-    box-shadow: -6px -12px 20px #aaa;
     padding-left: 14px;
     float: right;
     text-align: left;

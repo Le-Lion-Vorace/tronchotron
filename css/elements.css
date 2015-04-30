@@ -5,6 +5,9 @@
     float: left;
     z-index: 1;
 }
+.dev{
+    border:1px solid #666;
+}
 #visages {
     z-index: 2;
     top: 150px;
