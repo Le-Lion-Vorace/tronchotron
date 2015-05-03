@@ -3,7 +3,7 @@
     <move-btns></move-btns>    
     <button ng-repeat="btn in navBtn" class="nav-btn" 
             id="btn-{{btn.id}}" title="{{btn.title}}"
-            ng-click="btn.fn()"></button>
+            ng-click="btn.fn()">{{btn.text}}</button>
     <div class="lbl">
         <h2 class="toolBarName">Sélectionné :</h2>
         <div class="infolbl">

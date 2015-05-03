@@ -1,0 +1,10 @@
+<div id='reloadChoice' class="draggable infoDlg" ng-mouseleave="enable()">
+    <span ng-controller='navCtrl' class="close" title="fermer" ng-click="dlgHide('reloadChoice')">X</span>
+    <h2>Recharger une tronche</h2>
+    <p>
+        Choisissez une tronche à ouvrir...
+        <select ng-model="reloadIndex">
+            <option ng-repeat="obj in reloadedTronches">{{obj.index}} - {{obj.name}}</option>
+        </select>
+    </p>
+</div>
