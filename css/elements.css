@@ -1,7 +1,7 @@
 .elementsDiv {
     position: absolute;
 }
-#elementPanel {
+#elementsPanel {
     float: left;
     z-index: 1;
 }
