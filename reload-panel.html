@@ -12,7 +12,9 @@
                     transform:{{element.transform}};"
             >
             <span class="close" title="fermer" ng-click="unsetActive($index)">X</span>
-            <img ng-src="{{element.src}}" alt="{{element.name}}" rel="{{element.category}}" width="100%" height="100%">
+            <img ng-src="{{element.src}}" ng-class="[element.flipx,element.flipy]"
+                 alt="{{element.name}}" rel="{{element.category}}" 
+                 width="100%" height="100%"/>
             <div class="info hidden">
                 <span class="h_name">{{element.name}}</span><br/>
                 <span class="h_posX">{{element.position.left}}</span>
