@@ -5,8 +5,9 @@
         "src" : "elements/visages/visage01.png",
         "category" : "visages",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 300
     }, {
         "name" : "yeux01",
@@ -14,8 +15,9 @@
         "src" : "elements/yeux/yeux01.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux02",
@@ -23,8 +25,9 @@
         "src" : "elements/yeux/yeux02.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux03",
@@ -32,8 +35,9 @@
         "src" : "elements/yeux/yeux03.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux04",
@@ -41,8 +45,9 @@
         "src" : "elements/yeux/yeux04.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux05",
@@ -50,8 +55,9 @@
         "src" : "elements/yeux/yeux05.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux06",
@@ -59,8 +65,9 @@
         "src" : "elements/yeux/yeux06.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux07",
@@ -68,8 +75,9 @@
         "src" : "elements/yeux/yeux07.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux08-dte",
@@ -77,8 +85,9 @@
         "src" : "elements/yeux/yeux08-dte.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "yeux08-gche",
@@ -86,8 +95,9 @@
         "src" : "elements/yeux/yeux08-gche.png",
         "category" : "yeux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "nez01",
@@ -95,8 +105,9 @@
         "src" : "elements/nez/nez01.png",
         "category" : "nez",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 200
     }, {
         "name" : "nez02",
@@ -104,8 +115,9 @@
         "src" : "elements/nez/nez02.png",
         "category" : "nez",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 70
     }, {
         "name" : "nez03",
@@ -113,8 +125,9 @@
         "src" : "elements/nez/nez03.png",
         "category" : "nez",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "nez04",
@@ -122,8 +135,9 @@
         "src" : "elements/nez/nez04.png",
         "category" : "nez",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 200
     }, {
         "name" : "bouche01",
@@ -131,8 +145,9 @@
         "src" : "elements/bouches/bouche01.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 170
     }, {
         "name" : "bouche02",
@@ -140,16 +155,18 @@
         "src" : "elements/bouches/bouche02.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche03",
         "fileName" : "bouche03.png",
         "src" : "elements/bouches/bouche03.png",
         "category" : "bouches",
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "status" : false,
         "width" : 150
     }, {
@@ -158,8 +175,9 @@
         "src" : "elements/bouches/bouche04.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche05",
@@ -167,8 +185,9 @@
         "src" : "elements/bouches/bouche05.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche06",
@@ -176,8 +195,9 @@
         "src" : "elements/bouches/bouche06.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche07",
@@ -185,8 +205,9 @@
         "src" : "elements/bouches/bouche07.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche08",
@@ -194,8 +215,9 @@
         "src" : "elements/bouches/bouche08.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "bouche09",
@@ -203,8 +225,9 @@
         "src" : "elements/bouches/bouche09.png",
         "category" : "bouches",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille01-dte",
@@ -212,8 +235,9 @@
         "src" : "elements/oreilles/oreille01-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille01-gche",
@@ -221,8 +245,9 @@
         "src" : "elements/oreilles/oreille01-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille02-dte",
@@ -230,8 +255,9 @@
         "src" : "elements/oreilles/oreille02-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille02-gche",
@@ -239,8 +265,9 @@
         "src" : "elements/oreilles/oreille02-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille03-dte",
@@ -248,8 +275,9 @@
         "src" : "elements/oreilles/oreille03-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille03-gche",
@@ -257,8 +285,9 @@
         "src" : "elements/oreilles/oreille03-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille04-dte",
@@ -266,8 +295,9 @@
         "src" : "elements/oreilles/oreille04-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille04-gche",
@@ -275,8 +305,9 @@
         "src" : "elements/oreilles/oreille04-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille05-dte",
@@ -284,8 +315,9 @@
         "src" : "elements/oreilles/oreille05-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille05-gche",
@@ -293,8 +325,9 @@
         "src" : "elements/oreilles/oreille05-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille06-dte",
@@ -302,8 +335,9 @@
         "src" : "elements/oreilles/oreille06-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille06-gche",
@@ -311,8 +345,9 @@
         "src" : "elements/oreilles/oreille06-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille07-dte",
@@ -320,8 +355,9 @@
         "src" : "elements/oreilles/oreille07-dte.png",
         "category" : "oreilles-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "oreille07-gche",
@@ -329,8 +365,9 @@
         "src" : "elements/oreilles/oreille07-gche.png",
         "category" : "oreilles-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 150
     }, {
         "name" : "chevelure01",
@@ -338,8 +375,9 @@
         "src" : "elements/cheveux/chevelure01.png",
         "category" : "cheveux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 250
     }, {
         "name" : "cheveux02",
@@ -347,8 +385,9 @@
         "src" : "elements/cheveux/cheveux02.png",
         "category" : "cheveux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "cheveux03",
@@ -356,8 +395,9 @@
         "src" : "elements/cheveux/cheveux03.png",
         "category" : "cheveux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 125
     }, {
         "name" : "cheveux04",
@@ -365,8 +405,9 @@
         "src" : "elements/cheveux/cheveux04.png",
         "category" : "cheveux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 250
     }, {
         "name" : "cheveux05",
@@ -374,8 +415,9 @@
         "src" : "elements/cheveux/cheveux05.png",
         "category" : "cheveux",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 300
     }, {
         "name" : "triple-menton",
@@ -383,8 +425,9 @@
         "src" : "elements/divers/triple-menton.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "moustache01-dte",
@@ -392,8 +435,9 @@
         "src" : "elements/divers/moustache01-dte.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "moustache01-gche",
@@ -401,8 +445,9 @@
         "src" : "elements/divers/moustache01-gche.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "sourcil01-dte",
@@ -410,8 +455,9 @@
         "src" : "elements/divers/sourcil01-dte.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "sourcil01-gche",
@@ -419,8 +465,9 @@
         "src" : "elements/divers/sourcil01-gche.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "chapeau01",
@@ -428,8 +475,9 @@
         "src" : "elements/divers/chapeau01.png",
         "category" : "divers",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 200
     }, {
         "name" : "menton01",
@@ -437,8 +485,9 @@
         "src" : "elements/mentons/menton01.png",
         "category" : "mentons",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "menton02",
@@ -446,8 +495,9 @@
         "src" : "elements/mentons/menton02.png",
         "category" : "mentons",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "joues01-dte",
@@ -455,8 +505,9 @@
         "src" : "elements/joues/joues01-dte.png",
         "category" : "joues-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "joues01-gche",
@@ -464,8 +515,9 @@
         "src" : "elements/joues/joues01-gche.png",
         "category" : "joues-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "joues02-dte",
@@ -473,8 +525,9 @@
         "src" : "elements/joues/joues02-dte.png",
         "category" : "joues-dte",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }, {
         "name" : "joues02-gche",
@@ -482,8 +535,9 @@
         "src" : "elements/joues/joues02-gche.png",
         "category" : "joues-gche",
         "status" : false,
-        "flipx" : false,
-        "flipy" : false,
+        "flipx" : null,
+        "flipy" : null,
+        "transform" : "rotate(0deg)",
         "width" : 100
     }
 ]
