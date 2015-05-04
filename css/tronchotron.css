@@ -72,11 +72,11 @@ nav {
 }
 #imgbrowser .brwsr-btn {
     display: inline-block;
-    height: 30px;
+    height: 45px;
     margin: 5px;
-    padding: 5px;
+    padding: 6px;
     text-align: left;
-    width: 30px;
+    width: 45px;
 }
 .active {
     position: relative;
@@ -100,8 +100,8 @@ nav {
     font-weight: bold;
     padding: 6px;
     position: absolute;
-    right: 4px;
-    top: -4px;
+    right: 0;
+    top: 0;
 }
 .close:hover {
     display: block;

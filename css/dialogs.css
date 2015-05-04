@@ -9,8 +9,6 @@
     padding: 30px;
     position: absolute;
     top: 20px;
-    width: 500px;
-    text-align: justify;
     white-space: normal;
     opacity: 0.85;
     z-index: 1000;
@@ -61,9 +59,11 @@
 }
 #help {
     right: 350px;
+    width: 700px;
 }
 #about {
     display: none;
+    width: 550px;
     left: 250px;
     top: 0;
 }
@@ -78,6 +78,7 @@
     width: 60px;
 }
 #reloadChoice {
+    width : 375px;
     display: none;
 }
 .lbl {
