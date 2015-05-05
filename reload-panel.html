@@ -1,7 +1,8 @@
 <div id="reloadPanel">
-    <div id="reloadIndex" ng-bind="reloadIndex" class="hidden"></div>
-    <div id="{{cat.name}}" class="elementsDiv" ng-repeat="cat in categories" ng-init="cat">
-        <div ng-repeat="element in reloadedTronches[getIndex()].reloadedElements" 
+    <span id="reloadIndex" ng-bind="reloadIndex" class="hidden"></span>
+    <div id="{{cat.name}}" class="elementsDiv" 
+         ng-repeat="cat in reloadedTronches[getIndex()].reloadedElements.categories" style="z-index:{{cat.zIndex}};">
+        <div ng-repeat="element in reloadedTronches[getIndex()].reloadedElements.elements" 
             ng-if="element.category==cat.name && element.status" 
             class="element draggable ui-widget-content" 
             style= "width:{{element.width}}px;
@@ -16,13 +17,13 @@
                  alt="{{element.name}}" rel="{{element.category}}" 
                  width="100%" height="100%"/>
             <div class="info hidden">
-                <span class="h_name">{{element.name}}</span><br/>
+                <span class="h_name">{{element.name}}</span>
                 <span class="h_posX">{{element.position.left}}</span>
-                <span class="h_posY">{{element.position.top}}</span><br/>
+                <span class="h_posY">{{element.position.top}}</span>
                 <span class="h_width">{{element.width}}</span>
                 <span class="h_height">{{element.height}}</span>
-                <span class="h_zindex">{{element.zIndex}}</span><br/>
                 <span class="h_rotate">{{element.transform}}</span>
+                <span class="h_zindex" >{{element.zIndex}}</span>
                 <span class="h_flipx">{{element.flipx}}</span>
                 <span class="h_flipy">{{element.flipy}}</span>
             </div>

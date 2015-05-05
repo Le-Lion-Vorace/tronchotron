@@ -1,13 +1,36 @@
 [
-	{"name":"visages"},
-	{"name":"nez"},
-	{"name":"yeux"},
-	{"name":"bouches"},
-	{"name":"joues-gche"},
-	{"name":"joues-dte"},
-	{"name":"oreilles-dte"},
-	{"name":"oreilles-gche"},
-	{"name":"mentons"},
-	{"name":"cheveux"},
-	{"name":"divers"}
+	{
+		"name": "visages",
+		"zIndex": 2
+	}, {
+		"name": "nez",
+		"zIndex": 4
+	}, {
+		"name": "yeux",
+		"zIndex": 3
+	}, {
+		"name": "bouches",
+		"zIndex": 5
+	}, {
+		"name": "joues-gche",
+		"zIndex": 7
+	}, {
+		"name": "joues-dte",
+		"zIndex": 7 
+	}, {
+		"name": "oreilles-dte",
+		"zIndex": 6
+	}, {
+		"name": "oreilles-gche",
+		"zIndex": 6
+	}, {
+		"name": "mentons",
+		"zIndex": 9
+	}, {
+		"name": "cheveux",
+		"zIndex": 9
+	}, {
+		"name": "divers",
+		"zIndex": 9
+	}
 ]
