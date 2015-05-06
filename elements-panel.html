@@ -1,5 +1,6 @@
 <div id="elementsPanel">
-    <div id="{{cat.name}}" class="elementsDiv" ng-repeat="cat in categories" ng-init="cat">
+    <div id="{{cat.name}}" class="elementsDiv" ng-repeat="cat in categories"
+         style="z-index: {{cat.zIndex}};" ng-init="cat">
         <div ng-repeat="element in elements" ng-if="element.category==cat.name && element.status" 
              class="element draggable ui-widget-content">
             <span class="close" title="fermer" ng-click="unsetActive($index)">X</span>

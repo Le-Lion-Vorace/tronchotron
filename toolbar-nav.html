@@ -1,9 +1,15 @@
 <nav id="toolbar" ng-controller="navCtrl">
     <h2 class="toolBarName">modifications</h2>
-    <move-btns></move-btns>    
+    <move-btns></move-btns>
+    <!-- TODO remplacer les attributs boostrap 
+         data-* par un controller ui.bootstrap
+         et virer le bootstrap.min.js de l'index -->   
     <button ng-repeat="btn in navBtn" class="nav-btn" 
-            id="btn-{{btn.id}}" title="{{btn.title}}"
-            ng-click="btn.fn()">{{btn.text}}</button>
+            id="btn-{{btn.id}}" title="{{btn.title}}" 
+            ng-click="btn.fn()" data-toggle="{{btn.dataToggle}}" 
+            data-target="{{btn.dataTarget}}">
+            {{btn.text}}
+    </button>
     <div class="lbl">
         <h2 class="toolBarName">Sélectionné :</h2>
         <div class="infolbl">

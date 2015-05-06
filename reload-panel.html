@@ -1,7 +1,8 @@
 <div id="reloadPanel">
     <span id="reloadIndex" ng-bind="reloadIndex" class="hidden"></span>
     <div id="{{cat.name}}" class="elementsDiv" 
-         ng-repeat="cat in reloadedTronches[getIndex()].reloadedElements.categories" style="z-index:{{cat.zIndex}};">
+         ng-repeat="cat in reloadedTronches[getIndex()].reloadedElements.categories" 
+         style="z-index:{{cat.zIndex}};">
         <div ng-repeat="element in reloadedTronches[getIndex()].reloadedElements.elements" 
             ng-if="element.category==cat.name && element.status" 
             class="element draggable ui-widget-content" 
@@ -9,7 +10,6 @@
                     height:{{element.height}}px;
                     left:{{element.position.left}}px;
                     top:{{element.position.top}}px;
-                    z-index:{{element.zIndex}};
                     transform:{{element.transform}};"
             >
             <span class="close" title="fermer" ng-click="unsetActive($index)">X</span>

@@ -1,10 +1,30 @@
-<div id='reloadChoice' class="draggable infoDlg" ng-mouseleave="enable()">
-    <span ng-controller='navCtrl' class="close" title="fermer" ng-click="dlgHide('reloadChoice')">X</span>
-    <h2>Recharger une tronche</h2>
-    <p>
-        Choisissez une tronche à ouvrir...
-        <select ng-model="reloadIndex">
-            <option ng-repeat="obj in reloadedTronches">{{obj.index}} - {{obj.name}}</option>
-        </select>
-    </p>
-</div>
+<div class="modal fade" id="modalReloadChoice" 
+     tabindex="-1" role="dialog" aria-hidden="true" 
+     aria-labelledby="formulaire de Contact">
+    <div class="modal-dialog">
+        <div id="reloadChoice" ng-mouseleave="enable()" 
+             class="draggable infoDlg modal-content">
+            <span ng-controller="navCtrl" class="close"
+                  title="fermer" data-dismiss="modal"
+                  ng-click="dlgHide('reloadChoice')"> X </span>
+            <div>
+                <h2>Recharger une tronche</h2>
+            </div>
+            <div>
+                <class="modal-body">
+                    <p>
+                        Choisissez une tronche à ouvrir...
+                        <select ng-model="reloadIndex">
+                            <option ng-repeat="obj in reloadedTronches">
+                                {{obj.index}} - {{obj.name}}
+                            </option>
+                        </select>
+                    </p>
+                    <button class="btn btn-default" 
+                            ng-click="modalClose();"
+                            data-dismiss="modal">
+                        Fermer
+                    </button>
+            </div>
+        </div>
+    </div>
